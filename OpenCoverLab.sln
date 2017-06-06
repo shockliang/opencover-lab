@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCoverLab", "OpenCoverLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCoverLab.Tests", "OpenCoverLab.Tests\OpenCoverLab.Tests.csproj", "{C39A9609-B64D-4C33-A7BA-4FCCAB540B09}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SoultionItems", "_SoultionItems", "{7026DC5F-EB4E-4931-87B2-A7562F29E6C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestingMetrics", "UnitTestingMetrics", "{4F865759-04DF-475B-AE15-B172D188C4FD}"
+	ProjectSection(SolutionItems) = preProject
+		GenerateUnitTestingMetrics.bat = GenerateUnitTestingMetrics.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F865759-04DF-475B-AE15-B172D188C4FD} = {7026DC5F-EB4E-4931-87B2-A7562F29E6C9}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="37" visitedSequencePoints="19" numBranchPoints="9" visitedBranchPoints="5" sequenceCoverage="51.35" branchCoverage="55.56" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="2" numClasses="5" visitedMethods="4" numMethods="7" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="DA-26-66-2F-93-77-AE-98-22-07-2C-69-30-27-73-3B-4A-36-AA-D9">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="5C-82-E3-E4-4E-4D-70-5F-6E-0A-28-83-6E-4A-AC-20-0D-55-85-C0">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe</ModulePath>
+      <ModuleTime>2015-07-06T16:51:38Z</ModuleTime>
+      <ModuleName>MSTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="2C-68-4E-D5-C1-3A-95-ED-B2-9B-A5-AC-35-83-4B-2A-92-7D-EC-71">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Common\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:22:39.8834002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9E-A8-D1-57-B6-3B-86-2E-8C-02-F2-54-6C-52-59-FE-F4-15-49-3E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AA-3B-1D-46-19-3E-D3-88-43-47-D3-1C-48-42-12-21-60-87-13-47">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ExecutionCommon\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2044002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="BA-37-91-08-FF-4E-E3-92-22-87-5C-B0-C4-31-B2-CD-D2-72-57-18">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Resource\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Resource.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2154002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B3-80-92-72-0E-71-04-DA-EC-85-54-27-9D-00-FA-BA-7F-68-FD-CD">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="48-2F-2D-97-00-FC-41-0F-45-DE-64-4F-90-B2-79-E4-CF-F1-CA-0B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-76-93-04-A0-DC-E8-05-99-10-09-82-2B-83-D9-A0-07-06-C8-E6">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.CommandLine\v4.0_14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.CommandLine.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.1934002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.CommandLine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="67-35-F7-BE-AB-AB-D8-31-80-49-EA-36-2C-C0-79-46-EC-A8-09-23">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Resource.resources\14.0.0.0_zh-Hant_b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Resource.resources.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:13:51.9524002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="04-58-89-F2-0B-CE-93-0E-73-AA-3D-87-9D-5D-45-11-C0-02-86-EF">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.TMI\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.TMI.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2494002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.TMI</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F5-72-9C-93-52-D3-EE-41-9C-A0-F8-6F-D3-77-7D-4D-01-A0-75-D9">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D8-75-A9-3A-EA-43-3F-30-06-0D-0A-DA-56-AF-2A-9A-C3-8E-08-18">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Numerics</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-21-9A-D7-DA-C9-50-0D-63-BD-7F-C7-B1-54-3C-E8-90-2E-40-D6">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-73-17-F7-F2-F7-21-07-74-F0-AF-A2-C8-0A-2D-34-E1-76-F3-24">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="00-2B-49-9F-4A-61-6D-2F-9C-36-4D-65-B2-02-E5-3F-54-FB-6D-36">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2444002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="08-45-77-C3-8B-8B-8E-34-A2-92-74-D2-A1-49-2F-C3-33-42-63-88">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2574002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9C-BD-10-0D-B6-DF-EE-2B-EB-27-DA-26-68-CD-C4-4A-48-7F-7B-09">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2534002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AA-88-B1-10-85-A9-09-82-99-D7-42-38-22-D6-CB-B7-60-62-C9-9C">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2454002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="58-CE-A7-E0-D8-E6-8C-F3-F8-AF-F0-D2-A0-69-59-2C-79-81-21-97">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.TeamSystem.Licensing.dll</ModulePath>
+      <ModuleTime>2015-07-06T16:51:38Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TeamSystem.Licensing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5A-CD-00-66-D6-25-3D-79-A2-07-3C-74-D1-D9-02-16-21-17-B2-39">
+      <ModulePath>C:\Users\USER\Documents\Visual Studio 2017\Projects\OpenCoverLab\OpenCoverLab.Tests\bin\Debug\OpenCoverLab.Tests.dll</ModulePath>
+      <ModuleTime>2017-06-06T02:42:49.4406Z</ModuleTime>
+      <ModuleName>OpenCoverLab.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="81-06-33-34-09-49-27-53-2B-1A-30-21-7E-77-C6-61-2F-7C-2B-F8">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ControllerObject\v4.0_14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ControllerObject.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.1984002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ControllerObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="7F-4B-70-CC-12-9D-55-8A-0D-C7-AB-EB-13-D1-27-08-44-9A-1F-C6">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentProcessManager\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentProcessManager.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.5504002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentProcessManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-9D-4E-81-40-24-ED-5A-C9-7B-7B-F3-88-08-5D-9D-C8-6F-9B-9F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="3B-53-11-07-20-1C-7F-AA-48-E7-FE-51-FE-AD-DB-7A-FD-BD-03-15">
+      <Summary numSequencePoints="37" visitedSequencePoints="19" numBranchPoints="9" visitedBranchPoints="5" sequenceCoverage="51.35" branchCoverage="55.56" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="2" numClasses="5" visitedMethods="4" numMethods="7" />
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\OpenCoverLab.dll</ModulePath>
+      <ModuleTime>2017-06-06T02:42:05.3056Z</ModuleTime>
+      <ModuleName>OpenCoverLab</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\users\user\documents\visual studio 2017\Projects\OpenCoverLab\OpenCoverLab\App_Start\BundleConfig.cs" />
+        <File uid="2" fullPath="c:\users\user\documents\visual studio 2017\Projects\OpenCoverLab\OpenCoverLab\App_Start\FilterConfig.cs" />
+        <File uid="3" fullPath="c:\users\user\documents\visual studio 2017\Projects\OpenCoverLab\OpenCoverLab\Global.asax.cs" />
+        <File uid="4" fullPath="c:\users\user\documents\visual studio 2017\Projects\OpenCoverLab\OpenCoverLab\Controllers\HomeController.cs" />
+        <File uid="5" fullPath="c:\users\user\documents\visual studio 2017\Projects\OpenCoverLab\OpenCoverLab\Controllers\TodosController.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;&gt;f__AnonymousType0`3</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>&lt;controller&gt;j__TPar &lt;&gt;f__AnonymousType0`3::get_controller()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>&lt;action&gt;j__TPar &lt;&gt;f__AnonymousType0`3::get_action()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="2" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>&lt;id&gt;j__TPar &lt;&gt;f__AnonymousType0`3::get_id()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="3" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType0`3::.ctor(&lt;controller&gt;j__TPar,&lt;action&gt;j__TPar,&lt;id&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType0`3::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="5" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType0`3::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="6" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="10" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType0`3::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="7" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>OpenCoverLab.BundleConfig</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void OpenCoverLab.BundleConfig::RegisterBundles(System.Web.Optimization.BundleCollection)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="9" ordinal="1" offset="1" sl="11" sc="13" el="12" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="10" ordinal="2" offset="34" sl="14" sc="13" el="15" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="11" ordinal="3" offset="67" sl="19" sc="13" el="20" ec="51" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="12" ordinal="4" offset="100" sl="22" sc="13" el="24" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="13" ordinal="5" offset="144" sl="26" sc="13" el="28" ec="46" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="14" ordinal="6" offset="188" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="8" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void OpenCoverLab.BundleConfig::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="15" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>OpenCoverLab.FilterConfig</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void OpenCoverLab.FilterConfig::RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="53" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" offset="13" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="16" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void OpenCoverLab.FilterConfig::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="19" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>OpenCoverLab.RouteConfig</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>OpenCoverLab.MvcApplication</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void OpenCoverLab.MvcApplication::Application_Start()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="49" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="22" ordinal="2" offset="7" sl="16" sc="13" el="16" ec="71" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="23" ordinal="3" offset="18" sl="17" sc="13" el="17" ec="59" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="24" ordinal="4" offset="29" sl="18" sc="13" el="18" ec="63" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="25" ordinal="5" offset="40" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="20" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void OpenCoverLab.MvcApplication::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="26" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>OpenCoverLab.Controllers.HomeController</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Web.Mvc.ActionResult OpenCoverLab.Controllers.HomeController::Index()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="27" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="28" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="27" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="29" ordinal="2" offset="10" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="27" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Web.Mvc.ActionResult OpenCoverLab.Controllers.HomeController::About()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="30" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="31" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="68" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="32" ordinal="2" offset="99" sl="20" sc="13" el="20" ec="27" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="33" ordinal="3" offset="108" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="30" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Web.Mvc.ActionResult OpenCoverLab.Controllers.HomeController::Contact()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="36" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="37" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="52" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="38" ordinal="2" offset="99" sl="27" sc="13" el="27" ec="27" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="39" ordinal="3" offset="108" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="36" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void OpenCoverLab.Controllers.HomeController::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="42" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>OpenCoverLab.Controllers.HomeController/&lt;&gt;o__1</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>OpenCoverLab.Controllers.HomeController/&lt;&gt;o__2</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="80" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>OpenCoverLab.Controllers.TodosController</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="80" branchCoverage="66.67" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="80" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Web.Mvc.ActionResult OpenCoverLab.Controllers.TodosController::Index(System.Int32)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="43" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="44" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="27" bec="2" bev="1" fileid="5" />
+                <SequencePoint vc="1" uspid="45" ordinal="2" offset="10" sl="15" sc="13" el="15" ec="14" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="46" ordinal="3" offset="11" sl="16" sc="17" el="16" ec="56" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="47" ordinal="4" offset="17" sl="17" sc="17" el="17" ec="46" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="48" ordinal="5" offset="29" sl="18" sc="17" el="18" ec="62" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="49" ordinal="6" offset="52" sl="20" sc="17" el="20" ec="27" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="50" ordinal="7" offset="56" sl="22" sc="18" el="22" ec="19" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="51" ordinal="8" offset="57" sl="23" sc="17" el="23" ec="31" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="52" ordinal="9" offset="66" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="53" ordinal="0" offset="8" sl="14" path="0" offsetend="10" fileid="5" />
+                <BranchPoint vc="0" uspid="54" ordinal="1" offset="8" sl="14" path="1" offsetend="56" fileid="5" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="43" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void OpenCoverLab.Controllers.TodosController::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="55" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="72-A4-20-F9-02-68-90-FC-6C-7F-6F-3A-80-50-FD-4D-CF-7E-2D-4D">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\System.Web.Optimization.dll</ModulePath>
+      <ModuleTime>2014-02-11T07:26:04Z</ModuleTime>
+      <ModuleName>System.Web.Optimization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="91-F6-88-C2-35-38-8C-8B-CE-E0-3F-F2-0D-0C-8A-90-DB-DD-4E-3E">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\Microsoft.Web.Infrastructure.dll</ModulePath>
+      <ModuleTime>2012-01-05T03:08:46Z</ModuleTime>
+      <ModuleName>Microsoft.Web.Infrastructure</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-DE-6F-C2-02-10-FA-41-F8-20-D1-9C-F7-00-54-BC-61-0A-F7-2F">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\System.Web.Mvc.dll</ModulePath>
+      <ModuleTime>2015-01-27T20:02:18Z</ModuleTime>
+      <ModuleName>System.Web.Mvc</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="54-4A-E7-AD-A1-C1-3E-3B-7D-4D-74-D0-79-DF-3B-5E-A1-C8-A2-FA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.ComponentModel.DataAnnotations</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-2F-8A-FC-64-54-4B-F8-84-79-AD-4F-3C-82-C8-A0-63-F3-D4-A3">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\System.Web.Razor.dll</ModulePath>
+      <ModuleTime>2015-01-27T20:02:32Z</ModuleTime>
+      <ModuleName>System.Web.Razor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-E2-98-9D-7F-C3-3E-85-3F-06-E5-9C-9A-C1-95-85-7B-06-07-35">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\System.Web.WebPages.Razor.dll</ModulePath>
+      <ModuleTime>2015-01-27T20:04:30Z</ModuleTime>
+      <ModuleName>System.Web.WebPages.Razor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D0-E9-28-FA-2D-D0-E6-BA-3D-E2-DC-A1-B9-DF-E2-B4-5E-53-F6-77">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\System.Web.WebPages.dll</ModulePath>
+      <ModuleTime>2015-01-27T20:04:30Z</ModuleTime>
+      <ModuleName>System.Web.WebPages</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-2B-8A-53-B8-E9-0E-79-39-21-89-96-02-41-16-C5-72-53-DA-61">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="EA-93-77-CF-F6-53-62-8E-09-0B-8C-19-3F-21-5F-A7-E4-5C-56-17">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>Microsoft.CSharp</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8C-04-A9-D3-0C-7B-ED-55-17-23-E6-2E-72-6F-3B-A0-C5-79-7E-20">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Data.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="03-52-AC-F1-DF-39-04-A8-2C-1D-36-32-8A-BD-B5-64-5F-51-CC-77">
+      <ModulePath>c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\System.Web.WebPages.Deployment.dll</ModulePath>
+      <ModuleTime>2015-01-27T20:04:30Z</ModuleTime>
+      <ModuleName>System.Web.WebPages.Deployment</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="09-79-1E-3E-A3-5F-68-D6-E3-81-A5-53-69-73-98-EC-75-B6-E9-AC">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Runtime.Caching</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-F2-23-09-F1-48-98-36-89-6C-8F-44-5D-83-17-17-E9-96-79-B3">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Web.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C4-30-82-97-C2-D1-49-0C-02-FF-88-41-E3-29-B1-47-1C-C8-91-4B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Data.Entity</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-41-B4-31-9B-01-D9-5E-F7-44-8C-6B-01-18-77-70-7E-29-00-D7">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Drawing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FD-E6-9C-75-DC-E1-74-0C-ED-ED-0B-6F-BE-01-05-14-62-21-94-90">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_zh-Hant_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2015-11-05T14:25:32Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="47-EC-0B-6F-2C-4D-26-98-90-75-0E-E0-04-60-64-E5-22-37-D0-AD">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\QTAgent32_40.exe</ModulePath>
+      <ModuleTime>2015-07-06T16:51:38Z</ModuleTime>
+      <ModuleName>QTAgent32_40</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="59-1F-98-4F-C2-80-83-2E-DB-A5-09-F9-B7-81-89-21-BF-14-3D-76">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentObject\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentObject.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.1764002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="3B-3B-06-8C-A3-CC-F8-2A-DC-15-1E-A7-A9-99-5E-3E-2F-E0-F2-B5">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:12:08.2554002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="37-37-7A-DA-73-D4-47-18-27-60-F2-0B-63-96-18-D5-CF-DD-9F-B7">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.Enterprise.AspNetHelper.dll</ModulePath>
+      <ModuleTime>2016-06-20T06:45:20Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.Enterprise.AspNetHelper</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-7B-1D-E8-F7-BE-47-9B-F4-68-59-F6-7E-6B-D5-7D-92-12-5B-9D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Dynamic\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Dynamic.dll</ModulePath>
+      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleName>System.Dynamic</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="FD-74-A8-E2-19-F6-A4-1F-C6-DD-5C-62-FC-1A-13-2F-36-CA-53-F6">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp.resources\v4.0_4.0.0.0_zh-Hant_b03f5f7f11d50a3a\Microsoft.CSharp.resources.dll</ModulePath>
+      <ModuleTime>2015-11-05T14:25:32Z</ModuleTime>
+      <ModuleName>Microsoft.CSharp.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
