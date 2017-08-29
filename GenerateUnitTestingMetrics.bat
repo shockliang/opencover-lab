@@ -20,6 +20,7 @@ REM Launch the report
 if %errorlevel% equ 0 (
  call :RunLaunchReport
 )
+pause
 exit /b %errorlevel%
  
 :RunOpenCoverUnitTestMetrics
@@ -43,3 +44,4 @@ exit /b %errorlevel%
 :RunLaunchReport
 start "report" "%~dp0\GeneratedReports\ReportGenerator Output\index.htm"
 exit /b %errorlevel%
+

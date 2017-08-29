@@ -2,9 +2,9 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Summary numSequencePoints="37" visitedSequencePoints="19" numBranchPoints="9" visitedBranchPoints="5" sequenceCoverage="51.35" branchCoverage="55.56" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="2" numClasses="5" visitedMethods="4" numMethods="7" />
   <Modules>
-    <Module skippedDueTo="Filter" hash="DA-26-66-2F-93-77-AE-98-22-07-2C-69-30-27-73-3B-4A-36-AA-D9">
+    <Module skippedDueTo="Filter" hash="D1-E7-AE-E4-66-39-DB-ED-D8-EF-1C-3F-CC-69-12-1F-E6-8A-92-E3">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>mscorlib</ModuleName>
       <Classes />
     </Module>
@@ -20,9 +20,9 @@
       <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="9E-A8-D1-57-B6-3B-86-2E-8C-02-F2-54-6C-52-59-FE-F4-15-49-3E">
+    <Module skippedDueTo="Filter" hash="5C-87-CD-3C-EA-9E-9D-D7-D7-F8-B6-C3-72-72-58-EC-97-33-9D-31">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System</ModuleName>
       <Classes />
     </Module>
@@ -38,15 +38,15 @@
       <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="B3-80-92-72-0E-71-04-DA-EC-85-54-27-9D-00-FA-BA-7F-68-FD-CD">
+    <Module skippedDueTo="Filter" hash="FB-D4-0E-90-EA-AB-B0-1B-C4-12-8E-0A-26-C7-FA-75-AA-39-11-98">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Configuration</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="48-2F-2D-97-00-FC-41-0F-45-DE-64-4F-90-B2-79-E4-CF-F1-CA-0B">
+    <Module skippedDueTo="Filter" hash="B9-8B-21-12-C1-A8-63-27-37-43-85-65-6A-15-A6-C6-5A-C6-BF-D7">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
@@ -56,39 +56,33 @@
       <ModuleName>Microsoft.VisualStudio.QualityTools.CommandLine</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="67-35-F7-BE-AB-AB-D8-31-80-49-EA-36-2C-C0-79-46-EC-A8-09-23">
-      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Resource.resources\14.0.0.0_zh-Hant_b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Resource.resources.dll</ModulePath>
-      <ModuleTime>2017-04-28T04:13:51.9524002Z</ModuleTime>
-      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource.resources</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="MissingPdb" hash="04-58-89-F2-0B-CE-93-0E-73-AA-3D-87-9D-5D-45-11-C0-02-86-EF">
       <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.TMI\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.TMI.dll</ModulePath>
       <ModuleTime>2017-04-28T04:12:08.2494002Z</ModuleTime>
       <ModuleName>Microsoft.VisualStudio.QualityTools.TMI</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="F5-72-9C-93-52-D3-EE-41-9C-A0-F8-6F-D3-77-7D-4D-01-A0-75-D9">
+    <Module skippedDueTo="Filter" hash="99-6E-E1-FD-5D-4B-03-D4-CC-94-31-10-65-47-20-C1-A6-BA-6D-E2">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Data</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-75-A9-3A-EA-43-3F-30-06-0D-0A-DA-56-AF-2A-9A-C3-8E-08-18">
+    <Module skippedDueTo="Filter" hash="2D-1C-80-70-72-1B-82-0E-FB-14-B6-BD-F6-F8-8D-8B-A4-28-C1-C1">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Numerics</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="00-21-9A-D7-DA-C9-50-0D-63-BD-7F-C7-B1-54-3C-E8-90-2E-40-D6">
+    <Module skippedDueTo="Filter" hash="F1-FB-A5-DB-09-63-59-CE-E6-B3-A4-BC-21-D5-BF-15-FA-26-90-86">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="2A-73-17-F7-F2-F7-21-07-74-F0-AF-A2-C8-0A-2D-34-E1-76-F3-24">
+    <Module skippedDueTo="Filter" hash="E9-52-4C-A8-FB-A9-89-80-87-43-18-E5-B9-E0-08-1E-24-69-C1-56">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Core</ModuleName>
       <Classes />
     </Module>
@@ -96,6 +90,12 @@
       <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip.dll</ModulePath>
       <ModuleTime>2017-04-28T04:12:08.2444002Z</ModuleTime>
       <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="0B-BC-B7-85-2B-A3-07-D3-E3-EA-53-91-54-10-B7-EE-3B-7C-63-60">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.Tip.dll</ModulePath>
+      <ModuleTime>2015-07-06T16:51:38Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.Tip</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="08-45-77-C3-8B-8B-8E-34-A2-92-74-D2-A1-49-2F-C3-33-42-63-88">
@@ -140,9 +140,9 @@
       <ModuleName>Microsoft.VisualStudio.QualityTools.AgentProcessManager</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="C3-9D-4E-81-40-24-ED-5A-C9-7B-7B-F3-88-08-5D-9D-C8-6F-9B-9F">
+    <Module skippedDueTo="Filter" hash="A1-47-D1-CE-C9-BC-C0-A8-0B-2A-B5-42-EF-73-A0-6C-13-30-72-81">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Runtime.Remoting</ModuleName>
       <Classes />
     </Module>
@@ -440,9 +440,9 @@
       <ModuleName>System.Web.Mvc</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="54-4A-E7-AD-A1-C1-3E-3B-7D-4D-74-D0-79-DF-3B-5E-A1-C8-A2-FA">
+    <Module skippedDueTo="Filter" hash="DA-85-FA-6D-B5-DD-62-1B-44-30-3C-B1-5B-E5-B9-53-5C-F8-CE-DC">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.ComponentModel.DataAnnotations</ModuleName>
       <Classes />
     </Module>
@@ -464,21 +464,21 @@
       <ModuleName>System.Web.WebPages</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="E5-2B-8A-53-B8-E9-0E-79-39-21-89-96-02-41-16-C5-72-53-DA-61">
+    <Module skippedDueTo="Filter" hash="B2-31-39-27-96-0D-DA-C8-84-F0-DF-5B-04-82-6D-8E-48-52-05-EA">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Xml.Linq</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="EA-93-77-CF-F6-53-62-8E-09-0B-8C-19-3F-21-5F-A7-E4-5C-56-17">
+    <Module skippedDueTo="MissingPdb" hash="B9-12-E0-86-88-90-86-AD-A1-62-83-D7-CD-CE-FC-3F-07-12-C2-8D">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>Microsoft.CSharp</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="8C-04-A9-D3-0C-7B-ED-55-17-23-E6-2E-72-6F-3B-A0-C5-79-7E-20">
+    <Module skippedDueTo="Filter" hash="53-CA-34-31-4A-04-58-A8-33-A1-55-47-2C-4B-34-7A-60-C8-74-DE">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Linq.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Data.Linq</ModuleName>
       <Classes />
     </Module>
@@ -488,34 +488,28 @@
       <ModuleName>System.Web.WebPages.Deployment</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="09-79-1E-3E-A3-5F-68-D6-E3-81-A5-53-69-73-98-EC-75-B6-E9-AC">
+    <Module skippedDueTo="Filter" hash="E5-BD-89-D3-C6-30-F3-93-4C-68-5A-21-D1-2E-9C-01-BC-AF-FE-DA">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Runtime.Caching</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="3A-F2-23-09-F1-48-98-36-89-6C-8F-44-5D-83-17-17-E9-96-79-B3">
+    <Module skippedDueTo="Filter" hash="FB-A3-AB-E5-CF-DB-47-DE-45-55-6B-12-43-9E-82-2F-19-E4-1E-1E">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Web.Extensions</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="C4-30-82-97-C2-D1-49-0C-02-FF-88-41-E3-29-B1-47-1C-C8-91-4B">
+    <Module skippedDueTo="Filter" hash="33-8B-F6-5E-9A-99-24-56-8E-F0-39-E2-55-4F-3E-E8-2C-6D-A2-4D">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Data.Entity</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="22-41-B4-31-9B-01-D9-5E-F7-44-8C-6B-01-18-77-70-7E-29-00-D7">
+    <Module skippedDueTo="Filter" hash="BD-A3-68-79-F6-AB-5D-45-B4-B2-68-6C-62-7D-F8-CF-FB-58-55-F0">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Drawing</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="FD-E6-9C-75-DC-E1-74-0C-ED-ED-0B-6F-BE-01-05-14-62-21-94-90">
-      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_zh-Hant_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
-      <ModuleTime>2015-11-05T14:25:32Z</ModuleTime>
-      <ModuleName>mscorlib.resources</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="47-EC-0B-6F-2C-4D-26-98-90-75-0E-E0-04-60-64-E5-22-37-D0-AD">
@@ -530,6 +524,12 @@
       <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="MissingPdb" hash="67-35-F7-BE-AB-AB-D8-31-80-49-EA-36-2C-C0-79-46-EC-A8-09-23">
+      <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Resource.resources\14.0.0.0_zh-Hant_b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Resource.resources.dll</ModulePath>
+      <ModuleTime>2017-04-28T04:13:51.9524002Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource.resources</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="MissingPdb" hash="3B-3B-06-8C-A3-CC-F8-2A-DC-15-1E-A7-A9-99-5E-3E-2F-E0-F2-B5">
       <ModulePath>C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</ModulePath>
       <ModuleTime>2017-04-28T04:12:08.2554002Z</ModuleTime>
@@ -542,15 +542,15 @@
       <ModuleName>Microsoft.VisualStudio.Enterprise.AspNetHelper</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="34-7B-1D-E8-F7-BE-47-9B-F4-68-59-F6-7E-6B-D5-7D-92-12-5B-9D">
+    <Module skippedDueTo="Filter" hash="41-19-A7-18-47-E5-61-9A-34-D5-44-B6-85-48-C0-D1-31-3B-00-0F">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Dynamic\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Dynamic.dll</ModulePath>
-      <ModuleTime>2017-03-26T12:33:36Z</ModuleTime>
+      <ModuleTime>2017-04-21T06:53:36Z</ModuleTime>
       <ModuleName>System.Dynamic</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="FD-74-A8-E2-19-F6-A4-1F-C6-DD-5C-62-FC-1A-13-2F-36-CA-53-F6">
+    <Module skippedDueTo="MissingPdb" hash="C0-33-10-CC-7C-84-1E-46-CD-FB-99-0A-98-6F-2F-31-0B-F1-5E-DF">
       <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp.resources\v4.0_4.0.0.0_zh-Hant_b03f5f7f11d50a3a\Microsoft.CSharp.resources.dll</ModulePath>
-      <ModuleTime>2015-11-05T14:25:32Z</ModuleTime>
+      <ModuleTime>2017-04-21T07:40:56Z</ModuleTime>
       <ModuleName>Microsoft.CSharp.resources</ModuleName>
       <Classes />
     </Module>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="4a3d9af5-8ebe-4c60-b8bf-6462b31aff00" name="USER@USER-PC 2017-06-06 11:12:47" runUser="USER-PC\USER" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestSettings name="預設測試設定" id="57c2afdc-acef-4179-8d42-5e8e7f3a7767">
-    <Deployment userDeploymentRoot="C:\Users\USER\Documents\Visual Studio 2017\Projects\OpenCoverLab" useDefaultDeploymentRoot="false" runDeploymentRoot="USER_USER-PC 2017-06-06 11_12_47" />
+<TestRun id="020e3b8e-932e-4c04-85b4-9ee8cf6125cc" name="USER@USER-PC 2017-08-28 17:49:14" runUser="USER-PC\USER" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="cf5a917e-9ef7-4a1d-8a2c-c8451a579543">
+    <Deployment userDeploymentRoot="C:\Users\USER\Documents\Visual Studio 2017\Projects\OpenCoverLab" useDefaultDeploymentRoot="false" runDeploymentRoot="USER_USER-PC 2017-08-28 17_49_14" />
     <Execution>
       <TestTypeSpecific />
       <AgentRule name="Execution Agents">
@@ -9,51 +9,51 @@
     </Execution>
     <Properties />
   </TestSettings>
-  <Times creation="2017-06-06T11:12:47.9556000+08:00" queuing="2017-06-06T11:12:50.5016000+08:00" start="2017-06-06T11:12:50.6816000+08:00" finish="2017-06-06T11:12:51.6426000+08:00" />
+  <Times creation="2017-08-28T17:49:14.8310421+08:00" queuing="2017-08-28T17:49:17.3950421+08:00" start="2017-08-28T17:49:17.5920421+08:00" finish="2017-08-28T17:49:18.5890421+08:00" />
   <ResultSummary outcome="Warning">
     <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <RunInfos>
-      <RunInfo computerName="USER-PC" outcome="Warning" timestamp="2017-06-06T11:12:48.5736000+08:00">
-        <Text>警告: 測試回合部署問題: 找不到組件或模組 'WebGrease' 由 測試容器 'c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\opencoverlab.tests.dll' 直接或間接參考。</Text>
+      <RunInfo computerName="USER-PC" outcome="Warning" timestamp="2017-08-28T17:49:15.3950421+08:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'c:\users\user\documents\visual studio 2017\projects\opencoverlab\opencoverlab.tests\bin\debug\opencoverlab.tests.dll' was not found.</Text>
       </RunInfo>
     </RunInfos>
   </ResultSummary>
   <TestDefinitions>
     <UnitTest name="Contact" storage="c:\users\user\documents\visual studio 2017\projects\opencoverlab\\opencoverlab.tests\bin\debug\opencoverlab.tests.dll" id="26a7a4f4-c2e4-6307-99da-a66bc9e26519">
-      <Execution id="7457b181-2aef-4883-ac02-a8a65bb7ccd6" />
+      <Execution id="efc0c446-ca0b-4e80-a63f-b216b18d6184" />
       <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2017/Projects/OpenCoverLab/OpenCoverLab.Tests/bin/Debug/OpenCoverLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OpenCoverLab.Tests.Controllers.HomeControllerTest, OpenCoverLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
     </UnitTest>
     <UnitTest name="About" storage="c:\users\user\documents\visual studio 2017\projects\opencoverlab\\opencoverlab.tests\bin\debug\opencoverlab.tests.dll" id="a325294e-2a59-1c72-1984-d2c07c3ca8c5">
-      <Execution id="c2b52750-4e0d-46d1-a7b1-ce7a380ac11f" />
+      <Execution id="dfec832d-4d0f-4449-83f1-a350603adde1" />
       <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2017/Projects/OpenCoverLab/OpenCoverLab.Tests/bin/Debug/OpenCoverLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OpenCoverLab.Tests.Controllers.HomeControllerTest, OpenCoverLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
     </UnitTest>
     <UnitTest name="Index" storage="c:\users\user\documents\visual studio 2017\projects\opencoverlab\\opencoverlab.tests\bin\debug\opencoverlab.tests.dll" id="4c75399b-a273-761b-0de0-f001f92ee54b">
-      <Execution id="3dc57902-8d6d-4eb5-a007-c20268ab524e" />
+      <Execution id="0699895f-5ab2-43e2-ae9d-8e05fc0761d8" />
       <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2017/Projects/OpenCoverLab/OpenCoverLab.Tests/bin/Debug/OpenCoverLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OpenCoverLab.Tests.Controllers.HomeControllerTest, OpenCoverLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
     </UnitTest>
     <UnitTest name="IndexTest_Should_Be_Return_Text_When_Value_Greate_Than_10" storage="c:\users\user\documents\visual studio 2017\projects\opencoverlab\\opencoverlab.tests\bin\debug\opencoverlab.tests.dll" id="1184c46e-a8b0-4e64-6e1f-2afb0f0e62dc">
-      <Execution id="ce185ca1-e8fe-4962-9071-c11f012c034c" />
+      <Execution id="56c7453c-f8c3-448b-9d6b-6cee4223d53b" />
       <TestMethod codeBase="C:/Users/USER/Documents/Visual Studio 2017/Projects/OpenCoverLab/OpenCoverLab.Tests/bin/Debug/OpenCoverLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OpenCoverLab.Controllers.Tests.TodosControllerTests, OpenCoverLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest_Should_Be_Return_Text_When_Value_Greate_Than_10" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
-    <TestList name="不在清單中的結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestList name="所有載入的結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="1184c46e-a8b0-4e64-6e1f-2afb0f0e62dc" executionId="ce185ca1-e8fe-4962-9071-c11f012c034c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a325294e-2a59-1c72-1984-d2c07c3ca8c5" executionId="c2b52750-4e0d-46d1-a7b1-ce7a380ac11f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="26a7a4f4-c2e4-6307-99da-a66bc9e26519" executionId="7457b181-2aef-4883-ac02-a8a65bb7ccd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="4c75399b-a273-761b-0de0-f001f92ee54b" executionId="3dc57902-8d6d-4eb5-a007-c20268ab524e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1184c46e-a8b0-4e64-6e1f-2afb0f0e62dc" executionId="56c7453c-f8c3-448b-9d6b-6cee4223d53b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a325294e-2a59-1c72-1984-d2c07c3ca8c5" executionId="dfec832d-4d0f-4449-83f1-a350603adde1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26a7a4f4-c2e4-6307-99da-a66bc9e26519" executionId="efc0c446-ca0b-4e80-a63f-b216b18d6184" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c75399b-a273-761b-0de0-f001f92ee54b" executionId="0699895f-5ab2-43e2-ae9d-8e05fc0761d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="ce185ca1-e8fe-4962-9071-c11f012c034c" testId="1184c46e-a8b0-4e64-6e1f-2afb0f0e62dc" testName="IndexTest_Should_Be_Return_Text_When_Value_Greate_Than_10" computerName="USER-PC" duration="00:00:00.0365945" startTime="2017-06-06T11:12:50.7456000+08:00" endTime="2017-06-06T11:12:51.1826000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce185ca1-e8fe-4962-9071-c11f012c034c">
+    <UnitTestResult executionId="56c7453c-f8c3-448b-9d6b-6cee4223d53b" testId="1184c46e-a8b0-4e64-6e1f-2afb0f0e62dc" testName="IndexTest_Should_Be_Return_Text_When_Value_Greate_Than_10" computerName="USER-PC" duration="00:00:00.0360229" startTime="2017-08-28T17:49:17.6540421+08:00" endTime="2017-08-28T17:49:18.1060421+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56c7453c-f8c3-448b-9d6b-6cee4223d53b">
     </UnitTestResult>
-    <UnitTestResult executionId="c2b52750-4e0d-46d1-a7b1-ce7a380ac11f" testId="a325294e-2a59-1c72-1984-d2c07c3ca8c5" testName="About" computerName="USER-PC" duration="00:00:00.3794335" startTime="2017-06-06T11:12:51.1856000+08:00" endTime="2017-06-06T11:12:51.5676000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2b52750-4e0d-46d1-a7b1-ce7a380ac11f">
+    <UnitTestResult executionId="dfec832d-4d0f-4449-83f1-a350603adde1" testId="a325294e-2a59-1c72-1984-d2c07c3ca8c5" testName="About" computerName="USER-PC" duration="00:00:00.4038473" startTime="2017-08-28T17:49:18.1080421+08:00" endTime="2017-08-28T17:49:18.5160421+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfec832d-4d0f-4449-83f1-a350603adde1">
     </UnitTestResult>
-    <UnitTestResult executionId="7457b181-2aef-4883-ac02-a8a65bb7ccd6" testId="26a7a4f4-c2e4-6307-99da-a66bc9e26519" testName="Contact" computerName="USER-PC" duration="00:00:00.0016934" startTime="2017-06-06T11:12:51.5696000+08:00" endTime="2017-06-06T11:12:51.5736000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7457b181-2aef-4883-ac02-a8a65bb7ccd6">
+    <UnitTestResult executionId="efc0c446-ca0b-4e80-a63f-b216b18d6184" testId="26a7a4f4-c2e4-6307-99da-a66bc9e26519" testName="Contact" computerName="USER-PC" duration="00:00:00.0016770" startTime="2017-08-28T17:49:18.5180421+08:00" endTime="2017-08-28T17:49:18.5220421+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efc0c446-ca0b-4e80-a63f-b216b18d6184">
     </UnitTestResult>
-    <UnitTestResult executionId="3dc57902-8d6d-4eb5-a007-c20268ab524e" testId="4c75399b-a273-761b-0de0-f001f92ee54b" testName="Index" computerName="USER-PC" duration="00:00:00.0007346" startTime="2017-06-06T11:12:51.5746000+08:00" endTime="2017-06-06T11:12:51.5786000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dc57902-8d6d-4eb5-a007-c20268ab524e">
+    <UnitTestResult executionId="0699895f-5ab2-43e2-ae9d-8e05fc0761d8" testId="4c75399b-a273-761b-0de0-f001f92ee54b" testName="Index" computerName="USER-PC" duration="00:00:00.0007044" startTime="2017-08-28T17:49:18.5220421+08:00" endTime="2017-08-28T17:49:18.5250421+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0699895f-5ab2-43e2-ae9d-8e05fc0761d8">
     </UnitTestResult>
   </Results>
 </TestRun>
